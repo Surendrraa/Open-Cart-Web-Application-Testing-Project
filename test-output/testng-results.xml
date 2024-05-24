@@ -1,0 +1,1668 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="54" passed="47" failed="7" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-23T14:42:28 IST" name="Suite" finished-at="2024-05-23T14:52:08 IST" duration-ms="579610">
+    <groups>
+    </groups>
+    <test started-at="2024-05-23T14:42:28 IST" name="RegistrationSteps" finished-at="2024-05-23T14:44:56 IST" duration-ms="148216">
+      <class name="stepdefin.RegistrationSteps">
+        <test-method is-config="true" signature="setup()[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:42:28 IST" name="setup" finished-at="2024-05-23T14:43:00 IST" duration-ms="32204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:00 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:17 IST" duration-ms="17011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:17 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:26 IST" duration-ms="8426" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:26 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:32 IST" duration-ms="6405" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:32 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:39 IST" duration-ms="6722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:39 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:45 IST" duration-ms="6144" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:45 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:51 IST" duration-ms="5910" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:51 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:43:58 IST" duration-ms="6386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:43:58 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:04 IST" duration-ms="6460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@12]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:04 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:10 IST" duration-ms="5966" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:10 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:16 IST" duration-ms="5601" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:16 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:23 IST" duration-ms="7781" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:24 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:32 IST" duration-ms="8330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[C V Surendra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Surendra]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8186874383]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:32 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:38 IST" duration-ms="6063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method signature="testRegistration(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,boolean)[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:38 IST" name="testRegistration" data-provider="registrationData" finished-at="2024-05-23T14:44:54 IST" duration-ms="15738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[345566]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$$$]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[85949jjbbb]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[% $]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[% $ $ $]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[!&%]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.RegistrationSteps@38d8f54a]" started-at="2024-05-23T14:44:54 IST" name="tearDown" finished-at="2024-05-23T14:44:56 IST" duration-ms="2508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.RegistrationSteps -->
+    </test> <!-- RegistrationSteps -->
+    <test started-at="2024-05-23T14:44:57 IST" name="LoginSteps" finished-at="2024-05-23T14:45:58 IST" duration-ms="61735">
+      <class name="stepdefin.LoginSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:44:57 IST" name="setUp" finished-at="2024-05-23T14:45:16 IST" duration-ms="19780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:16 IST" name="loginTest" data-provider="loginData" finished-at="2024-05-23T14:45:24 IST" duration-ms="7492" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:24 IST" name="loginTest" data-provider="loginData" finished-at="2024-05-23T14:45:31 IST" duration-ms="6743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidemail@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:31 IST" name="loginTest" data-provider="loginData" finished-at="2024-05-23T14:45:38 IST" duration-ms="6825" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invalidemail@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:38 IST" name="loginTest" data-provider="loginData" finished-at="2024-05-23T14:45:44 IST" duration-ms="6662" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Invalid@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:44 IST" name="loginTest" data-provider="loginData" finished-at="2024-05-23T14:45:50 IST" duration-ms="5802" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:50 IST" name="loginTest" data-provider="loginData" finished-at="2024-05-23T14:45:57 IST" duration-ms="6630" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[@#$&*(]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[#$%#@12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.LoginSteps@36fc695d]" started-at="2024-05-23T14:45:57 IST" name="tearDown" finished-at="2024-05-23T14:45:58 IST" duration-ms="1703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.LoginSteps -->
+    </test> <!-- LoginSteps -->
+    <test started-at="2024-05-23T14:45:58 IST" name="ForgotPwdSteps" finished-at="2024-05-23T14:46:31 IST" duration-ms="32789">
+      <class name="stepdefin.ForgotPwdSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.ForgotPwdSteps@5b7a5baa]" started-at="2024-05-23T14:45:58 IST" name="setUp" finished-at="2024-05-23T14:46:16 IST" duration-ms="17999" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testForgottenPassword(java.lang.String)[pri:0, instance:stepdefin.ForgotPwdSteps@5b7a5baa]" started-at="2024-05-23T14:46:16 IST" name="testForgottenPassword" data-provider="emailProvider" finished-at="2024-05-23T14:46:21 IST" duration-ms="4828" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[karthik2001@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgottenPassword -->
+        <test-method signature="testForgottenPassword(java.lang.String)[pri:0, instance:stepdefin.ForgotPwdSteps@5b7a5baa]" started-at="2024-05-23T14:46:21 IST" name="testForgottenPassword" data-provider="emailProvider" finished-at="2024-05-23T14:46:25 IST" duration-ms="4118" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[user@example.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgottenPassword -->
+        <test-method signature="testForgottenPassword(java.lang.String)[pri:0, instance:stepdefin.ForgotPwdSteps@5b7a5baa]" started-at="2024-05-23T14:46:25 IST" name="testForgottenPassword" data-provider="emailProvider" finished-at="2024-05-23T14:46:29 IST" duration-ms="4078" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@example.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgottenPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.ForgotPwdSteps@5b7a5baa]" started-at="2024-05-23T14:46:30 IST" name="tearDown" finished-at="2024-05-23T14:46:31 IST" duration-ms="1714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.ForgotPwdSteps -->
+    </test> <!-- ForgotPwdSteps -->
+    <test started-at="2024-05-23T14:46:31 IST" name="LogoutSteps" finished-at="2024-05-23T14:47:01 IST" duration-ms="29365">
+      <class name="stepdefin.LogoutSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.LogoutSteps@3c46e67a]" started-at="2024-05-23T14:46:31 IST" name="setUp" finished-at="2024-05-23T14:46:48 IST" duration-ms="16992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogout(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LogoutSteps@3c46e67a]" started-at="2024-05-23T14:46:48 IST" name="testLogout" data-provider="loginDataProvider" finished-at="2024-05-23T14:46:54 IST" duration-ms="5741" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3fa50bf5ea1b76cae0ffdd6f2b069a1, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3fa50bf5ea1b76cae0ffdd6f2b069a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3fa50bf5ea1b76cae0ffdd6f2b069a1, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3fa50bf5ea1b76cae0ffdd6f2b069a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages1.LogoutPage.clickLogout(LogoutPage.java:49)
+at stepdefin.LogoutSteps.testLogout(LogoutSteps.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method signature="testLogout(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.LogoutSteps@3c46e67a]" started-at="2024-05-23T14:46:54 IST" name="testLogout" data-provider="loginDataProvider" finished-at="2024-05-23T14:46:58 IST" duration-ms="4038" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3fa50bf5ea1b76cae0ffdd6f2b069a1, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3fa50bf5ea1b76cae0ffdd6f2b069a1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Logout"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3fa50bf5ea1b76cae0ffdd6f2b069a1, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3fa50bf5ea1b76cae0ffdd6f2b069a1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages1.LogoutPage.clickLogout(LogoutPage.java:49)
+at stepdefin.LogoutSteps.testLogout(LogoutSteps.java:46)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.LogoutSteps@3c46e67a]" started-at="2024-05-23T14:46:58 IST" name="tearDown" finished-at="2024-05-23T14:47:01 IST" duration-ms="2548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.LogoutSteps -->
+    </test> <!-- LogoutSteps -->
+    <test started-at="2024-05-23T14:47:01 IST" name="SearchBarSteps" finished-at="2024-05-23T14:47:30 IST" duration-ms="29754">
+      <class name="stepdefin.SearchBarSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:01 IST" name="setUp" finished-at="2024-05-23T14:47:19 IST" duration-ms="17863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:19 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:47:21 IST" duration-ms="2763" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iMac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:21 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:47:23 IST" duration-ms="1697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[creative cars]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:23 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:47:25 IST" duration-ms="1744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:25 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:47:27 IST" duration-ms="2143" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:27 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:47:29 IST" duration-ms="1803" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[iLife]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.SearchBarSteps@3c41ed1d]" started-at="2024-05-23T14:47:29 IST" name="tearDown" finished-at="2024-05-23T14:47:30 IST" duration-ms="1643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.SearchBarSteps -->
+    </test> <!-- SearchBarSteps -->
+    <test started-at="2024-05-23T14:47:30 IST" name="ProductCompareSteps" finished-at="2024-05-23T14:47:59 IST" duration-ms="28804">
+      <class name="stepdefin.ProductCompareSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.ProductCompareSteps@22ff4249]" started-at="2024-05-23T14:47:30 IST" name="setUp" finished-at="2024-05-23T14:47:50 IST" duration-ms="19096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductComparison(java.lang.String)[pri:0, instance:stepdefin.ProductCompareSteps@22ff4249]" started-at="2024-05-23T14:47:50 IST" name="testProductComparison" data-provider="productDataProvider" finished-at="2024-05-23T14:47:58 IST" duration-ms="7981" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductComparison -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.ProductCompareSteps@22ff4249]" started-at="2024-05-23T14:47:58 IST" name="tearDown" finished-at="2024-05-23T14:47:59 IST" duration-ms="1711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.ProductCompareSteps -->
+    </test> <!-- ProductCompareSteps -->
+    <test started-at="2024-05-23T14:47:59 IST" name="ProductDisplaySteps" finished-at="2024-05-23T14:48:27 IST" duration-ms="27630">
+      <class name="stepdefin.ProductDisplaySteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.ProductDisplaySteps@3b69e7d1]" started-at="2024-05-23T14:47:59 IST" name="setUp" finished-at="2024-05-23T14:48:18 IST" duration-ms="18856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testProductDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:stepdefin.ProductDisplaySteps@3b69e7d1]" started-at="2024-05-23T14:48:18 IST" name="testProductDetails" data-provider="productDetailsProvider" finished-at="2024-05-23T14:48:25 IST" duration-ms="6751" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MacBook]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Product 16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[600]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[In Stock]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='product-title']"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d98c8e743f7fd9645e25f5e968955ba2, findElement {using=xpath, value=//h1[@class='product-title']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52100}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52100/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d98c8e743f7fd9645e25f5e968955ba2]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[@class='product-title']"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d98c8e743f7fd9645e25f5e968955ba2, findElement {using=xpath, value=//h1[@class='product-title']}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52100}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52100/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d98c8e743f7fd9645e25f5e968955ba2
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages1.ProductDisplayPage.getProductName(ProductDisplayPage.java:23)
+at stepdefin.ProductDisplaySteps.testProductDetails(ProductDisplaySteps.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.ProductDisplaySteps@3b69e7d1]" started-at="2024-05-23T14:48:25 IST" name="tearDown" finished-at="2024-05-23T14:48:27 IST" duration-ms="1987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.ProductDisplaySteps -->
+    </test> <!-- ProductDisplaySteps -->
+    <test started-at="2024-05-23T14:48:27 IST" name="AddToCartSteps" finished-at="2024-05-23T14:48:58 IST" duration-ms="30784">
+      <class name="stepdefin.AddToCartSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.AddToCartSteps@2f4948e4]" started-at="2024-05-23T14:48:27 IST" name="setUp" finished-at="2024-05-23T14:48:47 IST" duration-ms="20261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToCart()[pri:0, instance:stepdefin.AddToCartSteps@2f4948e4]" started-at="2024-05-23T14:48:47 IST" name="testAddToCart" finished-at="2024-05-23T14:48:48 IST" duration-ms="347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToCart -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.AddToCartSteps@2f4948e4]" started-at="2024-05-23T14:48:48 IST" name="testLogin" data-provider="loginDataProvider" finished-at="2024-05-23T14:48:53 IST" duration-ms="4983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.AddToCartSteps@2f4948e4]" started-at="2024-05-23T14:48:53 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:48:54 IST" duration-ms="1845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testShoppingCartIcon()[pri:0, instance:stepdefin.AddToCartSteps@2f4948e4]" started-at="2024-05-23T14:48:54 IST" name="testShoppingCartIcon" finished-at="2024-05-23T14:48:56 IST" duration-ms="1619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testShoppingCartIcon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.AddToCartSteps@2f4948e4]" started-at="2024-05-23T14:48:56 IST" name="tearDown" finished-at="2024-05-23T14:48:58 IST" duration-ms="1676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.AddToCartSteps -->
+    </test> <!-- AddToCartSteps -->
+    <test started-at="2024-05-23T14:48:58 IST" name="WishListSteps" finished-at="2024-05-23T14:49:26 IST" duration-ms="27987">
+      <class name="stepdefin.WishListSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.WishListSteps@7dcf94f8]" started-at="2024-05-23T14:48:58 IST" name="setUp" finished-at="2024-05-23T14:49:17 IST" duration-ms="19069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToWishlist()[pri:0, instance:stepdefin.WishListSteps@7dcf94f8]" started-at="2024-05-23T14:49:17 IST" name="testAddToWishlist" finished-at="2024-05-23T14:49:17 IST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishlist -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.WishListSteps@7dcf94f8]" started-at="2024-05-23T14:49:17 IST" name="testLogin" data-provider="loginDataProvider" finished-at="2024-05-23T14:49:19 IST" duration-ms="1692" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown">...</a> is not clickable at point (897, 8). Other element would receive the click: <div id="top-links" class="nav pull-right">...</div>
+  (Session info: MicrosoftEdge=125.0.2535.51)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d8d541fc65ae503424760a95963c986b, clickElement {id=f.1A200B3C2FEC30CFB7608851FAA4294B.d.E06942239A267CEE19EBC469D9A57609.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52203}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52203/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d8d541fc65ae503424760a95963c986b)] -> link text: My Account]
+Session ID: d8d541fc65ae503424760a95963c986b]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="https://naveenautomationlabs.com/opencart/index.php?route=account/account" title="My Account" class="dropdown-toggle" data-toggle="dropdown">...</a> is not clickable at point (897, 8). Other element would receive the click: <div id="top-links" class="nav pull-right">...</div>
+  (Session info: MicrosoftEdge=125.0.2535.51)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d8d541fc65ae503424760a95963c986b, clickElement {id=f.1A200B3C2FEC30CFB7608851FAA4294B.d.E06942239A267CEE19EBC469D9A57609.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52203}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52203/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d8d541fc65ae503424760a95963c986b)] -> link text: My Account]
+Session ID: d8d541fc65ae503424760a95963c986b
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at pages1.WishListPage.clickMyAccount(WishListPage.java:27)
+at stepdefin.WishListSteps.testLogin(WishListSteps.java:38)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.WishListSteps@7dcf94f8]" started-at="2024-05-23T14:49:19 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:49:22 IST" duration-ms="2479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testWishlistMenuIcon()[pri:0, instance:stepdefin.WishListSteps@7dcf94f8]" started-at="2024-05-23T14:49:22 IST" name="testWishlistMenuIcon" finished-at="2024-05-23T14:49:23 IST" duration-ms="1883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWishlistMenuIcon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.WishListSteps@7dcf94f8]" started-at="2024-05-23T14:49:24 IST" name="tearDown" finished-at="2024-05-23T14:49:26 IST" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.WishListSteps -->
+    </test> <!-- WishListSteps -->
+    <test started-at="2024-05-23T14:49:26 IST" name="HomeSteps" finished-at="2024-05-23T14:50:01 IST" duration-ms="35523">
+      <class name="stepdefin.HomeSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:26 IST" name="setUp" finished-at="2024-05-23T14:49:44 IST" duration-ms="18548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddToWishlist()[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:44 IST" name="testAddToWishlist" finished-at="2024-05-23T14:49:45 IST" duration-ms="456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddToWishlist -->
+        <test-method signature="testHomeIcon()[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:45 IST" name="testHomeIcon" finished-at="2024-05-23T14:49:52 IST" duration-ms="6696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeIcon -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:52 IST" name="testLogin" data-provider="loginDataProvider" finished-at="2024-05-23T14:49:56 IST" duration-ms="4147" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testSearch(java.lang.String)[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:56 IST" name="testSearch" data-provider="searchDataProvider" finished-at="2024-05-23T14:49:58 IST" duration-ms="2085" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mac]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testWishlistMenuIcon()[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:58 IST" name="testWishlistMenuIcon" finished-at="2024-05-23T14:49:59 IST" duration-ms="1456" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWishlistMenuIcon -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.HomeSteps@77c2494c]" started-at="2024-05-23T14:49:59 IST" name="tearDown" finished-at="2024-05-23T14:50:01 IST" duration-ms="2001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.HomeSteps -->
+    </test> <!-- HomeSteps -->
+    <test started-at="2024-05-23T14:50:01 IST" name="CheckOutSteps" finished-at="2024-05-23T14:50:26 IST" duration-ms="24836">
+      <class name="stepdefin.CheckOutSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.CheckOutSteps@179ece50]" started-at="2024-05-23T14:50:01 IST" name="setUp" finished-at="2024-05-23T14:50:18 IST" duration-ms="17096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:stepdefin.CheckOutSteps@179ece50]" started-at="2024-05-23T14:50:18 IST" name="testLogin" data-provider="loginDataProvider" finished-at="2024-05-23T14:50:23 IST" duration-ms="4602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurenra2001@gmail.com.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testCheckOut()[pri:0, instance:stepdefin.CheckOutSteps@179ece50]" started-at="2024-05-23T14:50:23 IST" name="testCheckOut" finished-at="2024-05-23T14:50:25 IST" depends-on-methods="stepdefin.CheckOutSteps.testLogin" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOut -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.CheckOutSteps@179ece50]" started-at="2024-05-23T14:50:25 IST" name="tearDown" finished-at="2024-05-23T14:50:26 IST" duration-ms="1611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.CheckOutSteps -->
+    </test> <!-- CheckOutSteps -->
+    <test started-at="2024-05-23T14:50:26 IST" name="MyAccountSteps" finished-at="2024-05-23T14:50:49 IST" duration-ms="23050">
+      <class name="stepdefin.MyAccountSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.MyAccountSteps@198b6731]" started-at="2024-05-23T14:50:26 IST" name="setUp" finished-at="2024-05-23T14:50:43 IST" duration-ms="16939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClicks(java.lang.String)[pri:0, instance:stepdefin.MyAccountSteps@198b6731]" started-at="2024-05-23T14:50:43 IST" name="testClicks" data-provider="clickDataProvider" finished-at="2024-05-23T14:50:44 IST" duration-ms="372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clickMyAccountLink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicks -->
+        <test-method signature="testClicks(java.lang.String)[pri:0, instance:stepdefin.MyAccountSteps@198b6731]" started-at="2024-05-23T14:50:44 IST" name="testClicks" data-provider="clickDataProvider" finished-at="2024-05-23T14:50:45 IST" duration-ms="1442" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clickLoginLink]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicks -->
+        <test-method signature="testClicks(java.lang.String)[pri:0, instance:stepdefin.MyAccountSteps@198b6731]" started-at="2024-05-23T14:50:45 IST" name="testClicks" data-provider="clickDataProvider" finished-at="2024-05-23T14:50:47 IST" duration-ms="1484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clickMyAccountRightColumn]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicks -->
+        <test-method signature="testClicks(java.lang.String)[pri:0, instance:stepdefin.MyAccountSteps@198b6731]" started-at="2024-05-23T14:50:47 IST" name="testClicks" data-provider="clickDataProvider" finished-at="2024-05-23T14:50:48 IST" duration-ms="1323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[clickMyAccountFooter]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClicks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.MyAccountSteps@198b6731]" started-at="2024-05-23T14:50:48 IST" name="tearDown" finished-at="2024-05-23T14:50:49 IST" duration-ms="1388" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.MyAccountSteps -->
+    </test> <!-- MyAccountSteps -->
+    <test started-at="2024-05-23T14:50:49 IST" name="MyAccountInfoSteps" finished-at="2024-05-23T14:51:15 IST" duration-ms="26083">
+      <class name="stepdefin.MyAccountInfoSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.MyAccountInfoSteps@2cd76f31]" started-at="2024-05-23T14:50:49 IST" name="setUp" finished-at="2024-05-23T14:51:09 IST" duration-ms="19486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEditAccount(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:stepdefin.MyAccountInfoSteps@2cd76f31]" started-at="2024-05-23T14:51:09 IST" name="testEditAccount" data-provider="accountData" finished-at="2024-05-23T14:51:13 IST" duration-ms="4365" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Surendraa]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0a0138fd8a84ab8aaa620e7b18c66977, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52404}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52404/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a0138fd8a84ab8aaa620e7b18c66977]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Edit your account information"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0a0138fd8a84ab8aaa620e7b18c66977, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52404}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52404/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a0138fd8a84ab8aaa620e7b18c66977
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages1.MyAccountInfoPage.clickEditAccountInfo(MyAccountInfoPage.java:49)
+at stepdefin.MyAccountInfoSteps.testEditAccount(MyAccountInfoSteps.java:36)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEditAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.MyAccountInfoSteps@2cd76f31]" started-at="2024-05-23T14:51:13 IST" name="tearDown" finished-at="2024-05-23T14:51:15 IST" duration-ms="2216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.MyAccountInfoSteps -->
+    </test> <!-- MyAccountInfoSteps -->
+    <test started-at="2024-05-23T14:51:15 IST" name="ChangePwdSteps" finished-at="2024-05-23T14:51:39 IST" duration-ms="23246">
+      <class name="stepdefin.ChangePwdSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.ChangePwdSteps@5dda768f]" started-at="2024-05-23T14:51:15 IST" name="setUp" finished-at="2024-05-23T14:51:33 IST" duration-ms="17082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testChangePassword(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:stepdefin.ChangePwdSteps@5dda768f]" started-at="2024-05-23T14:51:33 IST" name="testChangePassword" data-provider="passwordData" finished-at="2024-05-23T14:51:37 IST" duration-ms="4460" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Phani@1234]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Phani@1234]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Change your password"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2accb390bc12ad5a4451794de69ae619, findElement {using=link text, value=Change your password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52450}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52450/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2accb390bc12ad5a4451794de69ae619]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Change your password"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2accb390bc12ad5a4451794de69ae619, findElement {using=link text, value=Change your password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52450}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52450/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2accb390bc12ad5a4451794de69ae619
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages1.ChangePwdPage.clickChangePwdLink(ChangePwdPage.java:44)
+at stepdefin.ChangePwdSteps.testChangePassword(ChangePwdSteps.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testChangePassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.ChangePwdSteps@5dda768f]" started-at="2024-05-23T14:51:37 IST" name="tearDown" finished-at="2024-05-23T14:51:39 IST" duration-ms="1693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.ChangePwdSteps -->
+    </test> <!-- ChangePwdSteps -->
+    <test started-at="2024-05-23T14:51:39 IST" name="AddressBookSteps" finished-at="2024-05-23T14:52:08 IST" duration-ms="28936">
+      <class name="stepdefin.AddressBookSteps">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:stepdefin.AddressBookSteps@279fedbd]" started-at="2024-05-23T14:51:39 IST" name="setUp" finished-at="2024-05-23T14:51:59 IST" duration-ms="20507" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="addNewAddress(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:stepdefin.AddressBookSteps@279fedbd]" started-at="2024-05-23T14:51:59 IST" name="addNewAddress" data-provider="addressData" finished-at="2024-05-23T14:52:06 IST" duration-ms="6637" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cvsurendra2001@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Phani@1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[tcs]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[123 Street]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Apt 4]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[513450]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"New Address"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e97df2b820812377ebf96e48139316fc, findElement {using=link text, value=New Address}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52500}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e97df2b820812377ebf96e48139316fc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"New Address"}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e97df2b820812377ebf96e48139316fc, findElement {using=link text, value=New Address}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52500}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e97df2b820812377ebf96e48139316fc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at pages1.AddressBookPage.clickNewAddress(AddressBookPage.java:59)
+at stepdefin.AddressBookSteps.addNewAddress(AddressBookSteps.java:35)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1583)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewAddress -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stepdefin.AddressBookSteps@279fedbd]" started-at="2024-05-23T14:52:06 IST" name="tearDown" finished-at="2024-05-23T14:52:08 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stepdefin.AddressBookSteps -->
+    </test> <!-- AddressBookSteps -->
+  </suite> <!-- Suite -->
+</testng-results>

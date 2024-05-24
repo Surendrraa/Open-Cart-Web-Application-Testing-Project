@@ -1,0 +1,1945 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-failed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\LENOVO\eclipse-workspace\MAVEN_OPEN_CART_PROJECT\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">15 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">54 methods, 7 failed,   47 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.AddressBookSteps" class="method navigator-link" hash-for-method="addNewAddress(cvsurendra2001@gmail.com, Phani@1234, John, Doe, tcs, 123 Street, Apt 4, Banglore, 513450)">addNewAddress(cvsurendra2001@gmail.com, Phani@1234, John, Doe, tcs, 123 Street, Apt 4, Banglore, 513450)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.ChangePwdSteps" class="method navigator-link" hash-for-method="testChangePassword(cvsurendra2001@gmail.com, Phani@123, Phani@1234, Phani@1234)">testChangePassword(cvsurendra2001@gmail.com, Phani@123, Phani@1234, Phani@1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.MyAccountInfoSteps" class="method navigator-link" hash-for-method="testEditAccount(cvsurendra2001@gmail.com, Phani@123, Surendraa)">testEditAccount(cvsurendra2001@gmail.com, Phani@123, Surendraa)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.WishListSteps" class="method navigator-link" hash-for-method="testLogin(cvsurendra2001@gmail.com, Phani@123)">testLogin(cvsurendra2001@gmail.com, Phani@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LogoutSteps" class="method navigator-link" hash-for-method="testLogout(cvsurendra2001@gmail.com, Phani@123)">testLogout(cvsurendra2001@gmail.com, Phani@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LogoutSteps" class="method navigator-link" hash-for-method="testLogout(cvsurendra2001@gmail.com, Phani@123)">testLogout(cvsurendra2001@gmail.com, Phani@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.ProductDisplaySteps" class="method navigator-link" hash-for-method="testProductDetails(MacBook, Apple, Product 16, 600, In Stock)">testProductDetails(MacBook, Apple, Product 16, 600, In Stock)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LoginSteps" class="method navigator-link" hash-for-method="loginTest(cvsurendra2001@gmail.com, Phani@123@123)">loginTest(cvsurendra2001@gmail.com, Phani@123@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LoginSteps" class="method navigator-link" hash-for-method="loginTest(cvsurendra2001@gmail.com, Invalid@123)">loginTest(cvsurendra2001@gmail.com, Invalid@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LoginSteps" class="method navigator-link" hash-for-method="loginTest(, )">loginTest(, )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LoginSteps" class="method navigator-link" hash-for-method="loginTest(@#$&amp;*(, #$%#@12)">loginTest(@#$&*(, #$%#@12)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LoginSteps" class="method navigator-link" hash-for-method="loginTest(invalidemail@example.com, Invalid@123)">loginTest(invalidemail@example.com, Invalid@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.LoginSteps" class="method navigator-link" hash-for-method="loginTest(invalidemail@example.com, Phani@123)">loginTest(invalidemail@example.com, Phani@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.AddToCartSteps" class="method navigator-link" hash-for-method="testAddToCart">testAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.WishListSteps" class="method navigator-link" hash-for-method="testAddToWishlist">testAddToWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.HomeSteps" class="method navigator-link" hash-for-method="testAddToWishlist">testAddToWishlist</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.CheckOutSteps" class="method navigator-link" hash-for-method="testCheckOut">testCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.MyAccountSteps" class="method navigator-link" hash-for-method="testClicks(clickMyAccountLink)">testClicks(clickMyAccountLink)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.MyAccountSteps" class="method navigator-link" hash-for-method="testClicks(clickLoginLink)">testClicks(clickLoginLink)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.MyAccountSteps" class="method navigator-link" hash-for-method="testClicks(clickMyAccountFooter)">testClicks(clickMyAccountFooter)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.MyAccountSteps" class="method navigator-link" hash-for-method="testClicks(clickMyAccountRightColumn)">testClicks(clickMyAccountRightColumn)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.ForgotPwdSteps" class="method navigator-link" hash-for-method="testForgottenPassword(karthik2001@gmail.com)">testForgottenPassword(karthik2001@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.ForgotPwdSteps" class="method navigator-link" hash-for-method="testForgottenPassword(admin@example.com)">testForgottenPassword(admin@example.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.ForgotPwdSteps" class="method navigator-link" hash-for-method="testForgottenPassword(user@example.com)">testForgottenPassword(user@example.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.HomeSteps" class="method navigator-link" hash-for-method="testHomeIcon">testHomeIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.AddToCartSteps" class="method navigator-link" hash-for-method="testLogin(cvsurendra2001@gmail.com, Phani@123)">testLogin(cvsurendra2001@gmail.com, Phani@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.HomeSteps" class="method navigator-link" hash-for-method="testLogin(cvsurendra2001@gmail.com, Phani@123)">testLogin(cvsurendra2001@gmail.com, Phani@123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.CheckOutSteps" class="method navigator-link" hash-for-method="testLogin(cvsurenra2001@gmail.com.com, password1)">testLogin(cvsurenra2001@gmail.com.com, password1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.ProductCompareSteps" class="method navigator-link" hash-for-method="testProductComparison(Mac)">testProductComparison(Mac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, , Phani@123, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, , Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(, , , , , , false)">testRegistration(, , , , , , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, true)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, true)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874, Phani@123, Phani@123, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874, Phani@123, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, , 8186874383, Phani@123, Phani@123, false)">testRegistration(C V Surendra, Surendra, , 8186874383, Phani@123, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, , Phani@123, Phani@123, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, , Phani@123, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, , cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)">testRegistration(C V Surendra, , cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(345566, $$$, 85949jjbbb, % $, % $ $ $, !&amp;%, false)">testRegistration(345566, $$$, 85949jjbbb, % $, % $ $ $, !&%, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)">testRegistration(, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@, 8186874383, Phani@123, Phani@123, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@, 8186874383, Phani@123, Phani@123, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, , false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, , false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.RegistrationSteps" class="method navigator-link" hash-for-method="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.SearchBarSteps" class="method navigator-link" hash-for-method="testSearch(iMac)">testSearch(iMac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.SearchBarSteps" class="method navigator-link" hash-for-method="testSearch(creative cars)">testSearch(creative cars)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.SearchBarSteps" class="method navigator-link" hash-for-method="testSearch(Mac)">testSearch(Mac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.SearchBarSteps" class="method navigator-link" hash-for-method="testSearch()">testSearch()</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.SearchBarSteps" class="method navigator-link" hash-for-method="testSearch(iLife)">testSearch(iLife)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.AddToCartSteps" class="method navigator-link" hash-for-method="testSearch(Mac)">testSearch(Mac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.WishListSteps" class="method navigator-link" hash-for-method="testSearch(Mac)">testSearch(Mac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.HomeSteps" class="method navigator-link" hash-for-method="testSearch(Mac)">testSearch(Mac)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.AddToCartSteps" class="method navigator-link" hash-for-method="testShoppingCartIcon">testShoppingCartIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.WishListSteps" class="method navigator-link" hash-for-method="testWishlistMenuIcon">testWishlistMenuIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="stepdefin.HomeSteps" class="method navigator-link" hash-for-method="testWishlistMenuIcon">testWishlistMenuIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">stepdefin.AddressBookSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addNewAddress(cvsurendra2001@gmail.com, Phani@1234, John, Doe, tcs, 123 Street, Apt 4, Banglore, 513450)">
+                  </a> <!-- addNewAddress(cvsurendra2001@gmail.com, Phani@1234, John, Doe, tcs, 123 Street, Apt 4, Banglore, 513450) -->
+                  <span class="method-name">addNewAddress</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@1234, John, Doe, tcs, 123 Street, Apt 4, Banglore, 513450)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;New Address&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e97df2b820812377ebf96e48139316fc, findElement {using=link text, value=New Address}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52500}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52500/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e97df2b820812377ebf96e48139316fc
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages1.AddressBookPage.clickNewAddress(AddressBookPage.java:59)
+	at stepdefin.AddressBookSteps.addNewAddress(AddressBookSteps.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">stepdefin.ChangePwdSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testChangePassword(cvsurendra2001@gmail.com, Phani@123, Phani@1234, Phani@1234)">
+                  </a> <!-- testChangePassword(cvsurendra2001@gmail.com, Phani@123, Phani@1234, Phani@1234) -->
+                  <span class="method-name">testChangePassword</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123, Phani@1234, Phani@1234)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Change your password&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2accb390bc12ad5a4451794de69ae619, findElement {using=link text, value=Change your password}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52450}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52450/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2accb390bc12ad5a4451794de69ae619
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages1.ChangePwdPage.clickChangePwdLink(ChangePwdPage.java:44)
+	at stepdefin.ChangePwdSteps.testChangePassword(ChangePwdSteps.java:35)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">stepdefin.LogoutSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout(cvsurendra2001@gmail.com, Phani@123)">
+                  </a> <!-- testLogout(cvsurendra2001@gmail.com, Phani@123) -->
+                  <span class="method-name">testLogout</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Logout&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3fa50bf5ea1b76cae0ffdd6f2b069a1, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3fa50bf5ea1b76cae0ffdd6f2b069a1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages1.LogoutPage.clickLogout(LogoutPage.java:49)
+	at stepdefin.LogoutSteps.testLogout(LogoutSteps.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogout(cvsurendra2001@gmail.com, Phani@123)">
+                  </a> <!-- testLogout(cvsurendra2001@gmail.com, Phani@123) -->
+                  <span class="method-name">testLogout</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Logout&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d3fa50bf5ea1b76cae0ffdd6f2b069a1, findElement {using=link text, value=Logout}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51947}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51947/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3fa50bf5ea1b76cae0ffdd6f2b069a1
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages1.LogoutPage.clickLogout(LogoutPage.java:49)
+	at stepdefin.LogoutSteps.testLogout(LogoutSteps.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">stepdefin.WishListSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(cvsurendra2001@gmail.com, Phani@123)">
+                  </a> <!-- testLogin(cvsurendra2001@gmail.com, Phani@123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a href=&quot;https://naveenautomationlabs.com/opencart/index.php?route=account/account&quot; title=&quot;My Account&quot; class=&quot;dropdown-toggle&quot; data-toggle=&quot;dropdown&quot;&gt;...&lt;/a&gt; is not clickable at point (897, 8). Other element would receive the click: &lt;div id=&quot;top-links&quot; class=&quot;nav pull-right&quot;&gt;...&lt;/div&gt;
+  (Session info: MicrosoftEdge=125.0.2535.51)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d8d541fc65ae503424760a95963c986b, clickElement {id=f.1A200B3C2FEC30CFB7608851FAA4294B.d.E06942239A267CEE19EBC469D9A57609.e.59}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52203}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52203/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (d8d541fc65ae503424760a95963c986b)] -&gt; link text: My Account]
+Session ID: d8d541fc65ae503424760a95963c986b
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at pages1.WishListPage.clickMyAccount(WishListPage.java:27)
+	at stepdefin.WishListSteps.testLogin(WishListSteps.java:38)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">stepdefin.MyAccountInfoSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testEditAccount(cvsurendra2001@gmail.com, Phani@123, Surendraa)">
+                  </a> <!-- testEditAccount(cvsurendra2001@gmail.com, Phani@123, Surendraa) -->
+                  <span class="method-name">testEditAccount</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123, Surendraa)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Edit your account information&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0a0138fd8a84ab8aaa620e7b18c66977, findElement {using=link text, value=Edit your account information}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52404}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52404/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0a0138fd8a84ab8aaa620e7b18c66977
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages1.MyAccountInfoPage.clickEditAccountInfo(MyAccountInfoPage.java:49)
+	at stepdefin.MyAccountInfoSteps.testEditAccount(MyAccountInfoSteps.java:36)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">stepdefin.ProductDisplaySteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductDetails(MacBook, Apple, Product 16, 600, In Stock)">
+                  </a> <!-- testProductDetails(MacBook, Apple, Product 16, 600, In Stock) -->
+                  <span class="method-name">testProductDetails</span>
+                  <span class="parameters">(MacBook, Apple, Product 16, 600, In Stock)</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h1[@class=&apos;product-title&apos;]&quot;}
+  (Session info: MicrosoftEdge=125.0.2535.51)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d98c8e743f7fd9645e25f5e968955ba2, findElement {using=xpath, value=//h1[@class=&apos;product-title&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.51, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:52100}, msedge: {msedgedriverVersion: 125.0.2535.51 (b1bc6e892654..., userDataDir: C:\Users\LENOVO\AppData\Loc...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52100/devtoo..., se:cdpVersion: 125.0.2535.51, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d98c8e743f7fd9645e25f5e968955ba2
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at pages1.ProductDisplayPage.getProductName(ProductDisplayPage.java:23)
+	at stepdefin.ProductDisplaySteps.testProductDetails(ProductDisplaySteps.java:41)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.ProductCompareSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testProductComparison(Mac)">
+                  </a> <!-- testProductComparison(Mac) -->
+                  <span class="method-name">testProductComparison</span>
+                  <span class="parameters">(Mac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.RegistrationSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, , Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, , Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, , Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(, , , , , , false)">
+                  </a> <!-- testRegistration(, , , , , , false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(, , , , , , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, true)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, true) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, true)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874, Phani@123, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874, Phani@123, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874, Phani@123, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, , 8186874383, Phani@123, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, , 8186874383, Phani@123, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, , 8186874383, Phani@123, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, , Phani@123, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, , Phani@123, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, , Phani@123, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, , cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, , cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, , cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(345566, $$$, 85949jjbbb, % $, % $ $ $, !&amp;%, false)">
+                  </a> <!-- testRegistration(345566, $$$, 85949jjbbb, % $, % $ $ $, !&%, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(345566, $$$, 85949jjbbb, % $, % $ $ $, !&%, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)">
+                  </a> <!-- testRegistration(, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@, 8186874383, Phani@123, Phani@123, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@, 8186874383, Phani@123, Phani@123, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@, 8186874383, Phani@123, Phani@123, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, , false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, , false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, , false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)">
+                  </a> <!-- testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false) -->
+                  <span class="method-name">testRegistration</span>
+                  <span class="parameters">(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.MyAccountSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClicks(clickMyAccountLink)">
+                  </a> <!-- testClicks(clickMyAccountLink) -->
+                  <span class="method-name">testClicks</span>
+                  <span class="parameters">(clickMyAccountLink)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClicks(clickLoginLink)">
+                  </a> <!-- testClicks(clickLoginLink) -->
+                  <span class="method-name">testClicks</span>
+                  <span class="parameters">(clickLoginLink)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClicks(clickMyAccountFooter)">
+                  </a> <!-- testClicks(clickMyAccountFooter) -->
+                  <span class="method-name">testClicks</span>
+                  <span class="parameters">(clickMyAccountFooter)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testClicks(clickMyAccountRightColumn)">
+                  </a> <!-- testClicks(clickMyAccountRightColumn) -->
+                  <span class="method-name">testClicks</span>
+                  <span class="parameters">(clickMyAccountRightColumn)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.AddToCartSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToCart">
+                  </a> <!-- testAddToCart -->
+                  <span class="method-name">testAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(cvsurendra2001@gmail.com, Phani@123)">
+                  </a> <!-- testLogin(cvsurendra2001@gmail.com, Phani@123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Mac)">
+                  </a> <!-- testSearch(Mac) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Mac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testShoppingCartIcon">
+                  </a> <!-- testShoppingCartIcon -->
+                  <span class="method-name">testShoppingCartIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.ForgotPwdSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgottenPassword(karthik2001@gmail.com)">
+                  </a> <!-- testForgottenPassword(karthik2001@gmail.com) -->
+                  <span class="method-name">testForgottenPassword</span>
+                  <span class="parameters">(karthik2001@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgottenPassword(admin@example.com)">
+                  </a> <!-- testForgottenPassword(admin@example.com) -->
+                  <span class="method-name">testForgottenPassword</span>
+                  <span class="parameters">(admin@example.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testForgottenPassword(user@example.com)">
+                  </a> <!-- testForgottenPassword(user@example.com) -->
+                  <span class="method-name">testForgottenPassword</span>
+                  <span class="parameters">(user@example.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.WishListSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToWishlist">
+                  </a> <!-- testAddToWishlist -->
+                  <span class="method-name">testAddToWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Mac)">
+                  </a> <!-- testSearch(Mac) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Mac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWishlistMenuIcon">
+                  </a> <!-- testWishlistMenuIcon -->
+                  <span class="method-name">testWishlistMenuIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.HomeSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddToWishlist">
+                  </a> <!-- testAddToWishlist -->
+                  <span class="method-name">testAddToWishlist</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeIcon">
+                  </a> <!-- testHomeIcon -->
+                  <span class="method-name">testHomeIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(cvsurendra2001@gmail.com, Phani@123)">
+                  </a> <!-- testLogin(cvsurendra2001@gmail.com, Phani@123) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Mac)">
+                  </a> <!-- testSearch(Mac) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Mac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testWishlistMenuIcon">
+                  </a> <!-- testWishlistMenuIcon -->
+                  <span class="method-name">testWishlistMenuIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.SearchBarSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(iMac)">
+                  </a> <!-- testSearch(iMac) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(iMac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(creative cars)">
+                  </a> <!-- testSearch(creative cars) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(creative cars)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(Mac)">
+                  </a> <!-- testSearch(Mac) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(Mac)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch()">
+                  </a> <!-- testSearch() -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">()</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearch(iLife)">
+                  </a> <!-- testSearch(iLife) -->
+                  <span class="method-name">testSearch</span>
+                  <span class="parameters">(iLife)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.LoginSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(cvsurendra2001@gmail.com, Phani@123@123)">
+                  </a> <!-- loginTest(cvsurendra2001@gmail.com, Phani@123@123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Phani@123@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(cvsurendra2001@gmail.com, Invalid@123)">
+                  </a> <!-- loginTest(cvsurendra2001@gmail.com, Invalid@123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(cvsurendra2001@gmail.com, Invalid@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(, )">
+                  </a> <!-- loginTest(, ) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(, )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(@#$&amp;*(, #$%#@12)">
+                  </a> <!-- loginTest(@#$&*(, #$%#@12) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(@#$&*(, #$%#@12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(invalidemail@example.com, Invalid@123)">
+                  </a> <!-- loginTest(invalidemail@example.com, Invalid@123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(invalidemail@example.com, Invalid@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(invalidemail@example.com, Phani@123)">
+                  </a> <!-- loginTest(invalidemail@example.com, Phani@123) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(invalidemail@example.com, Phani@123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">stepdefin.CheckOutSteps</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCheckOut">
+                  </a> <!-- testCheckOut -->
+                  <span class="method-name">testCheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogin(cvsurenra2001@gmail.com.com, password1)">
+                  </a> <!-- testLogin(cvsurenra2001@gmail.com.com, password1) -->
+                  <span class="method-name">testLogin</span>
+                  <span class="parameters">(cvsurenra2001@gmail.com.com, password1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\eclipse-workspace\MAVEN_OPEN_CART_PROJECT\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;RegistrationSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.RegistrationSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- RegistrationSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;LoginSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.LoginSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LoginSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;ForgotPwdSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.ForgotPwdSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ForgotPwdSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;LogoutSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.LogoutSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- LogoutSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;SearchBarSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.SearchBarSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SearchBarSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;ProductCompareSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.ProductCompareSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProductCompareSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;ProductDisplaySteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.ProductDisplaySteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ProductDisplaySteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;AddToCartSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.AddToCartSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddToCartSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;WishListSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.WishListSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- WishListSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;HomeSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.HomeSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- HomeSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;CheckOutSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.CheckOutSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CheckOutSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;MyAccountSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.MyAccountSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyAccountSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;MyAccountInfoSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.MyAccountInfoSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MyAccountInfoSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;ChangePwdSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.ChangePwdSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ChangePwdSteps --&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;classes&quot; name=&quot;AddressBookSteps&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;stepdefin.AddressBookSteps&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- AddressBookSteps --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">RegistrationSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LoginSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ForgotPwdSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">LogoutSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SearchBarSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ProductCompareSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ProductDisplaySteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddToCartSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">WishListSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">HomeSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">CheckOutSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyAccountSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MyAccountInfoSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">ChangePwdSteps (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">AddressBookSteps (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(54);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testRegistration')
+data.setCell(0, 2, 'stepdefin.RegistrationSteps')
+data.setCell(0, 3, 17011);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testRegistration')
+data.setCell(1, 2, 'stepdefin.RegistrationSteps')
+data.setCell(1, 3, 15738);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testRegistration')
+data.setCell(2, 2, 'stepdefin.RegistrationSteps')
+data.setCell(2, 3, 8426);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testRegistration')
+data.setCell(3, 2, 'stepdefin.RegistrationSteps')
+data.setCell(3, 3, 8330);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testProductComparison')
+data.setCell(4, 2, 'stepdefin.ProductCompareSteps')
+data.setCell(4, 3, 7981);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegistration')
+data.setCell(5, 2, 'stepdefin.RegistrationSteps')
+data.setCell(5, 3, 7781);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loginTest')
+data.setCell(6, 2, 'stepdefin.LoginSteps')
+data.setCell(6, 3, 7492);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTest')
+data.setCell(7, 2, 'stepdefin.LoginSteps')
+data.setCell(7, 3, 6825);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testProductDetails')
+data.setCell(8, 2, 'stepdefin.ProductDisplaySteps')
+data.setCell(8, 3, 6751);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginTest')
+data.setCell(9, 2, 'stepdefin.LoginSteps')
+data.setCell(9, 3, 6743);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testRegistration')
+data.setCell(10, 2, 'stepdefin.RegistrationSteps')
+data.setCell(10, 3, 6722);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testHomeIcon')
+data.setCell(11, 2, 'stepdefin.HomeSteps')
+data.setCell(11, 3, 6696);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginTest')
+data.setCell(12, 2, 'stepdefin.LoginSteps')
+data.setCell(12, 3, 6662);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'addNewAddress')
+data.setCell(13, 2, 'stepdefin.AddressBookSteps')
+data.setCell(13, 3, 6637);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTest')
+data.setCell(14, 2, 'stepdefin.LoginSteps')
+data.setCell(14, 3, 6630);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testRegistration')
+data.setCell(15, 2, 'stepdefin.RegistrationSteps')
+data.setCell(15, 3, 6460);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testRegistration')
+data.setCell(16, 2, 'stepdefin.RegistrationSteps')
+data.setCell(16, 3, 6405);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testRegistration')
+data.setCell(17, 2, 'stepdefin.RegistrationSteps')
+data.setCell(17, 3, 6386);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testRegistration')
+data.setCell(18, 2, 'stepdefin.RegistrationSteps')
+data.setCell(18, 3, 6144);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testRegistration')
+data.setCell(19, 2, 'stepdefin.RegistrationSteps')
+data.setCell(19, 3, 6063);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testRegistration')
+data.setCell(20, 2, 'stepdefin.RegistrationSteps')
+data.setCell(20, 3, 5966);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testRegistration')
+data.setCell(21, 2, 'stepdefin.RegistrationSteps')
+data.setCell(21, 3, 5910);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'loginTest')
+data.setCell(22, 2, 'stepdefin.LoginSteps')
+data.setCell(22, 3, 5802);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testLogout')
+data.setCell(23, 2, 'stepdefin.LogoutSteps')
+data.setCell(23, 3, 5741);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testRegistration')
+data.setCell(24, 2, 'stepdefin.RegistrationSteps')
+data.setCell(24, 3, 5601);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testLogin')
+data.setCell(25, 2, 'stepdefin.AddToCartSteps')
+data.setCell(25, 3, 4983);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testForgottenPassword')
+data.setCell(26, 2, 'stepdefin.ForgotPwdSteps')
+data.setCell(26, 3, 4828);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testLogin')
+data.setCell(27, 2, 'stepdefin.CheckOutSteps')
+data.setCell(27, 3, 4602);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testChangePassword')
+data.setCell(28, 2, 'stepdefin.ChangePwdSteps')
+data.setCell(28, 3, 4460);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testEditAccount')
+data.setCell(29, 2, 'stepdefin.MyAccountInfoSteps')
+data.setCell(29, 3, 4365);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testLogin')
+data.setCell(30, 2, 'stepdefin.HomeSteps')
+data.setCell(30, 3, 4147);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testForgottenPassword')
+data.setCell(31, 2, 'stepdefin.ForgotPwdSteps')
+data.setCell(31, 3, 4118);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'testForgottenPassword')
+data.setCell(32, 2, 'stepdefin.ForgotPwdSteps')
+data.setCell(32, 3, 4078);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testLogout')
+data.setCell(33, 2, 'stepdefin.LogoutSteps')
+data.setCell(33, 3, 4038);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testSearch')
+data.setCell(34, 2, 'stepdefin.SearchBarSteps')
+data.setCell(34, 3, 2763);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testSearch')
+data.setCell(35, 2, 'stepdefin.WishListSteps')
+data.setCell(35, 3, 2479);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'testSearch')
+data.setCell(36, 2, 'stepdefin.SearchBarSteps')
+data.setCell(36, 3, 2143);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'testSearch')
+data.setCell(37, 2, 'stepdefin.HomeSteps')
+data.setCell(37, 3, 2085);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'testWishlistMenuIcon')
+data.setCell(38, 2, 'stepdefin.WishListSteps')
+data.setCell(38, 3, 1883);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'testSearch')
+data.setCell(39, 2, 'stepdefin.AddToCartSteps')
+data.setCell(39, 3, 1845);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'testSearch')
+data.setCell(40, 2, 'stepdefin.SearchBarSteps')
+data.setCell(40, 3, 1803);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'testSearch')
+data.setCell(41, 2, 'stepdefin.SearchBarSteps')
+data.setCell(41, 3, 1744);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'testSearch')
+data.setCell(42, 2, 'stepdefin.SearchBarSteps')
+data.setCell(42, 3, 1697);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'testLogin')
+data.setCell(43, 2, 'stepdefin.WishListSteps')
+data.setCell(43, 3, 1692);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'testShoppingCartIcon')
+data.setCell(44, 2, 'stepdefin.AddToCartSteps')
+data.setCell(44, 3, 1619);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'testClicks')
+data.setCell(45, 2, 'stepdefin.MyAccountSteps')
+data.setCell(45, 3, 1484);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'testWishlistMenuIcon')
+data.setCell(46, 2, 'stepdefin.HomeSteps')
+data.setCell(46, 3, 1456);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'testClicks')
+data.setCell(47, 2, 'stepdefin.MyAccountSteps')
+data.setCell(47, 3, 1442);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'testCheckOut')
+data.setCell(48, 2, 'stepdefin.CheckOutSteps')
+data.setCell(48, 3, 1435);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'testClicks')
+data.setCell(49, 2, 'stepdefin.MyAccountSteps')
+data.setCell(49, 3, 1323);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'testAddToWishlist')
+data.setCell(50, 2, 'stepdefin.HomeSteps')
+data.setCell(50, 3, 456);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'testAddToWishlist')
+data.setCell(51, 2, 'stepdefin.WishListSteps')
+data.setCell(51, 3, 411);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'testClicks')
+data.setCell(52, 2, 'stepdefin.MyAccountSteps')
+data.setCell(52, 3, 372);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'testAddToCart')
+data.setCell(53, 2, 'stepdefin.AddToCartSteps')
+data.setCell(53, 3, 347);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.RegistrationSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, true)</span>
+                <span class="method-start">32260 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@123, false)</span>
+                <span class="method-start">49366 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)</span>
+                <span class="method-start">57809 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)</span>
+                <span class="method-start">64276 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874, Phani@123, Phani@123, false)</span>
+                <span class="method-start">71029 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@, 8186874383, Phani@123, Phani@123, false)</span>
+                <span class="method-start">77192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, Phani@, false)</span>
+                <span class="method-start">83111 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, , cvsurendra2001@gmail.com, 8186874383, Phani@12, Phani@123, false)</span>
+                <span class="method-start">89520 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, , 8186874383, Phani@123, Phani@123, false)</span>
+                <span class="method-start">96008 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, , Phani@123, Phani@123, false)</span>
+                <span class="method-start">101995 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, , Phani@123, false)</span>
+                <span class="method-start">107600 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(C V Surendra, Surendra, cvsurendra2001@gmail.com, 8186874383, Phani@123, , false)</span>
+                <span class="method-start">115408 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(, , , , , , false)</span>
+                <span class="method-start">123743 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testRegistration(345566, $$$, 85949jjbbb, % $, % $ $ $, !&%, false)</span>
+                <span class="method-start">129856 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">145623 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.LoginSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">148587 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(cvsurendra2001@gmail.com, Phani@123@123)</span>
+                <span class="method-start">168368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(invalidemail@example.com, Invalid@123)</span>
+                <span class="method-start">175878 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(invalidemail@example.com, Phani@123)</span>
+                <span class="method-start">182627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(cvsurendra2001@gmail.com, Invalid@123)</span>
+                <span class="method-start">189459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(, )</span>
+                <span class="method-start">196137 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginTest(@#$&*(, #$%#@12)</span>
+                <span class="method-start">201974 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">208606 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.ForgotPwdSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">210335 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testForgottenPassword(karthik2001@gmail.com)</span>
+                <span class="method-start">228336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testForgottenPassword(user@example.com)</span>
+                <span class="method-start">233166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testForgottenPassword(admin@example.com)</span>
+                <span class="method-start">237291 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">241402 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.LogoutSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">243146 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogout(cvsurendra2001@gmail.com, Phani@123)</span>
+                <span class="method-start">260142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogout(cvsurendra2001@gmail.com, Phani@123)</span>
+                <span class="method-start">265914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">269957 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.SearchBarSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">272609 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testSearch(iMac)</span>
+                <span class="method-start">290474 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch(creative cars)</span>
+                <span class="method-start">293300 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch()</span>
+                <span class="method-start">295004 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch(Mac)</span>
+                <span class="method-start">296752 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch(iLife)</span>
+                <span class="method-start">298897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">300709 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.ProductCompareSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">302376 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testProductComparison(Mac)</span>
+                <span class="method-start">321473 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">329461 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.ProductDisplaySteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">331190 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testProductDetails(MacBook, Apple, Product 16, 600, In Stock)</span>
+                <span class="method-start">350047 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">356828 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.AddToCartSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">358915 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddToCart</span>
+                <span class="method-start">379177 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(cvsurendra2001@gmail.com, Phani@123)</span>
+                <span class="method-start">379559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch(Mac)</span>
+                <span class="method-start">384548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testShoppingCartIcon</span>
+                <span class="method-start">386396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">388019 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.WishListSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">389727 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddToWishlist</span>
+                <span class="method-start">408797 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testLogin(cvsurendra2001@gmail.com, Phani@123)</span>
+                <span class="method-start">409228 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch(Mac)</span>
+                <span class="method-start">410986 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWishlistMenuIcon</span>
+                <span class="method-start">413498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">415444 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.HomeSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">417751 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testAddToWishlist</span>
+                <span class="method-start">436304 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testHomeIcon</span>
+                <span class="method-start">436763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testLogin(cvsurendra2001@gmail.com, Phani@123)</span>
+                <span class="method-start">443493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testSearch(Mac)</span>
+                <span class="method-start">447711 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testWishlistMenuIcon</span>
+                <span class="method-start">449803 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">451268 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.CheckOutSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">453294 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testLogin(cvsurenra2001@gmail.com.com, password1)</span>
+                <span class="method-start">470392 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testCheckOut</span>
+                <span class="method-start">475071 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">476510 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.MyAccountSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">478148 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testClicks(clickMyAccountLink)</span>
+                <span class="method-start">495091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClicks(clickLoginLink)</span>
+                <span class="method-start">495498 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClicks(clickMyAccountRightColumn)</span>
+                <span class="method-start">496957 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testClicks(clickMyAccountFooter)</span>
+                <span class="method-start">498467 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">499803 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.MyAccountInfoSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">501217 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testEditAccount(cvsurendra2001@gmail.com, Phani@123, Surendraa)</span>
+                <span class="method-start">520707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">525076 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.ChangePwdSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">527323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testChangePassword(cvsurendra2001@gmail.com, Phani@123, Phani@1234, Phani@1234)</span>
+                <span class="method-start">544405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">548868 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">stepdefin.AddressBookSteps</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">550597 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addNewAddress(cvsurendra2001@gmail.com, Phani@1234, John, Doe, tcs, 123 Street, Apt 4, Banglore, 513450)</span>
+                <span class="method-start">571106 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">577763 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
